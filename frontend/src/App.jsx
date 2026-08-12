@@ -5,13 +5,17 @@ import heroImg from './assets/hero.png'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
+
 
   let name = "shahab";
 
   return (
     <>
+
     <h1>hi, {name}</h1>
+
+
       <section id="center">
         <div className="hero">
           <img src={heroImg} className="base" width="170" height="179" alt="" />
