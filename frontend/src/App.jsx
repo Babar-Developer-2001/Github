@@ -6,11 +6,16 @@ import './App.css'
 
 function App() {
   const [count, setCount] = useState(0);
-  let name = 'Babar';
+
+
+  let name = "shahab";
 
   return (
     <>
-    <h1>Hi, {name}</h1>
+
+    <h1>hi, {name}</h1>
+
+
       <section id="center">
         <div className="hero">
           <img src={heroImg} className="base" width="170" height="179" alt="" />
